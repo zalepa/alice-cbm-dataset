@@ -8,7 +8,14 @@ Covered Business Method (“CBM”) cases before the Patent Trial and Appeal Boa
 (PTAB). Below is a listing of columns in the CSV file.
 
 ### CSV Columns
-TODO
+
+0. Case Number: the CBM number having a format CBMYYYY-NNNNN
+1. Patent: U.S. Patent Number having a format NNNNNNN
+2. Ground: Section of 35 U.S.C.. (available values: 101)
+3. Grant Status: String defining petition (available values: Granted, Denied)
+4. Grant Claims: String containing a comma separated list of individual
+claim numbers
+5. Decision Date: date of petition in YYYY-MM-DD format
 
 ## Contributing
 ### CBM Cases
