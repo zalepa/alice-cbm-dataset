@@ -19,9 +19,9 @@ end
 (help(-1)) if ARGV.empty?
 
 numbers = [] of Int32
+input_data = ARGV.join("").split(",")
 
-ARGV.each do |item|
-  item = item.delete(",")
+input_data.each do |item|
   if item.includes?("-")
     start, stop = item.split("-")
     (start.to_i..stop.to_i).to_a.each do |i|
@@ -32,4 +32,4 @@ ARGV.each do |item|
   end
 end
 
-puts numbers.join(",")
+print numbers.join(",")
