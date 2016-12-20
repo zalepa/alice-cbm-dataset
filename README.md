@@ -9,7 +9,8 @@ Covered Business Method (“CBM”) cases before the Patent Trial and Appeal Boa
 
 ### CSV Columns
 
-0. Case Number: the CBM number having a format CBMYYYY-NNNNN
+0. Case Number: string having a format XXXYYYY-NNNNN where XXX is either CBM or
+ PGR
 1. Patent: U.S. Patent Number having a format NNNNNNN
 2. Ground: Section of 35 U.S.C.. (available values: 101)
 3. Grant Status: String defining petition (available values: Granted, Denied, Joined, Vacated/dismissed)
